@@ -12,7 +12,6 @@ categories = [
     "Challenges",
     "Machine-Learning"
 ]
-draft = true
 +++
 
 ## Recap
