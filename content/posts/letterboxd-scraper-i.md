@@ -2,13 +2,13 @@
 layout: post
 date: 2023-12-06
 author: "Yohannes"
-title: "Letterboxd Scraper"
+title: "(How to write) A Letterboxd Scraper"
 weight: 1
 ---
 
-In this post, I construct a [Letterboxd](https://letterboxd.com) scrapper. In case you don't know, it is a film logging site with built-in social networking features. The company does not have a public API for their data, so one has to use a scaper to get their hands on the film/user data. 
+In this post, I will make a [Letterboxd](https://letterboxd.com) scrapper. In case you didn't know, Letterboxd is a film logging site with built-in social networking features. It is a great platform, but the company does not provide a public API for their data, so one has to use a scaper to get their hands on the film/user data. 
 
-For this scraper, given a username, we want all the films the user has logged. Then we will collect the:
+For this scraper, given a username, we want all the films the user has logged. Then, we will want to collect the
 * runtime
 * director(s)
 * country
@@ -19,7 +19,7 @@ For this scraper, given a username, we want all the films the user has logged. T
 
 of each film.
 
-We will also utilize Python's **concurrent processing** to significantly reduce the time it takes to scrap our data. Without it, scraping was frustratingly slow even for people with fewer than 200 entries in their logs. For the HTML parsing and scraping, we will use the Python package [BeautifulSoup](https://pypi.org/project/beautifulsoup4/). 
+We will also utilize Python's **concurrent processing** to significantly reduce the time it takes to scrap our data by optimizing how we send our requests. Without it, scraping is frustratingly slow even when scraping users with fewer than 200 entries in their logs. For the HTML parsing and scraping, we will use the Python package [BeautifulSoup](https://pypi.org/project/beautifulsoup4/). 
 
 You can find the Jupyter notebook for this post [here](https://github.com/ydkahin/jupyter-notebooks/blob/d370fa7e8d7a0800eabe6691d41b197f9a9c9e75/letterboxd_scraper_to_blog.ipynb).
 
@@ -140,7 +140,7 @@ def the_details(url): #independent of the rest, lots of BeautifulSoup code went 
     return film
 ```
 
-Let us test it with this film:
+Let us test it out with this film:
 
 
 ```python
@@ -161,11 +161,11 @@ the_details('https://letterboxd.com/film/knives-out-2019/')
      'languages': {'English', 'Spanish'}}
 
 
+Great!
 
 ---
 
-Now, we collect the film details from all of the films a given user has logged. This excludes the user's rating, which will be scraped later (see below). It's optimized by using 
-`ThreadPoolExecutor`
+Now, we collect the film details from all of the films a given user has logged. This excludes the user's rating, which will be scraped later (see below). The function is also optimized by using `ThreadPoolExecutor`.  This is important since there is a lot of wasted downtime in between scraping and sending requests.
 
 
 ```python
@@ -459,6 +459,6 @@ pd.DataFrame(getRatings('indiewire'))
 
 
 
-This will be useful for the recommendation engine part of the project, which is part of the reason I decided to write a scraper, the other part being honing my Python skills. 
+This will be useful for the recommendation engine part of my project, which is part of the reason I decided to write a scraper in the first place. Other than that I thought it would be a great way to hone my Python skills and revive this blog :) 
 
-I hope you will find this write-up and code useful for your projects!
+I hope you found this write-up/code useful!
