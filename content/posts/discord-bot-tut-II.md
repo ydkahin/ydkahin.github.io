@@ -2,6 +2,7 @@
 author: "Y D.A."
 date: 2017-08-17
 title: (AWS Hosting) How to make and host a Discord Bot, Part II
+weight: 2
 ---
 
 This is a follow up post to _Part I_ of [How to make and host a Discord Bot](../how-to-make-and-host-a-discord-bot-part-i/) where I go through the steps to make a simple bot using the discord.py library. In this post, I will conclude the tutorial by explaining how we can host the bot we made in part I. 
@@ -45,19 +46,19 @@ Find the instances section in the AWS panel. Click on the instance you just crea
 Now we need to setup discord.py on your virtual server (i.e., the instance). First we need to check the version of python. The Amazon Linux AMI on my instance came shipped with Python 2.7. So, I need to install Python 3.4.2 or above.
 
 To install Python 3.5 and set up `pip3` type each line in the console:
-```bash
+```console
 sudo yum install python35
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python3 get-pip.py
 ```
 
 Now we can install discord.py `v1.0.0` (_rewrite_ version): 
-```bash
+```console
 sudo python3 -m pip install -U https://github.com/Rapptz/discord.py/archive/rewrite.zip\#egg\=discord.py
 ```
 
 We need to install the *requests* library (to retrive the list of names for new nicknames): 
-```bash
+```console
 sudo python3 -m pip install -U requests
 ```
 
@@ -71,7 +72,7 @@ Once you have transferred `bot.py` to the instance, we will have to run it in th
 
 Simply excute the following command in the directory where `bot.py` is stored:
 
-```bash
+```shell
 nohup python3 bot.py &
 ```
 

@@ -15,10 +15,14 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
   font-family: monospace;
   font-weight: 400;
-  font-size: 13px;
+  /*font-size: 13px;*/
   color:#022b02;
   line-height: 1.25em;
   margin-bottom: 1.75em;
+  /*background-color: grey;*/
+  /*border-collapse: collapse;*/
+  border-style: hidden;
+  font-size: medium;
 }
 
 .j_pre p  {

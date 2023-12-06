@@ -17,7 +17,7 @@ I have found out that it takes a lot of time porting big Jupyter notebooks to a 
 ## Exploratory Data Analysis and Feature Engineering:
 
 
-[`https://nbviewer.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora-views-challenge/quora_views_challenge-partiii-EDA_and_feature_engineering.ipynb`](http://nbviewer.jupyter.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora_views_challenge-partiii-EDA_and_feature_engineering.ipynb)
+[`https://nbviewer.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora-views-challenge/quora_views_challenge-partiii-EDA_and_feature_engineering.ipynb`](https://nbviewer.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora-views-challenge/quora_views_challenge-partiii-EDA_and_feature_engineering.ipynb)
 
 Summary:
 
@@ -28,7 +28,7 @@ Summary:
 
 ## More Feature Engineering using Keywords:
 
-[`https://nbviewer.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora-views-challenge/quora_views_challenge_partiii-more_text_analysis.ipynb`](http://nbviewer.jupyter.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora_views_challenge_partiii-more_text_analysis.ipynb?flush_cache=true)
+[`https://nbviewer.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora-views-challenge/quora_views_challenge_partiii-more_text_analysis.ipynb`](https://nbviewer.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora-views-challenge/quora_views_challenge_partiii-more_text_analysis.ipynb)
 
 Summary:
 
@@ -37,7 +37,7 @@ Summary:
 
 ## Regression with the New Features:
 
-[`https://nbviewer.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora-views-challenge/quora_views_challenge-partiii-Regression_with_the_new_features.ipynb=force_flush`](http://nbviewer.jupyter.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora-views-challenge/quora_views_challenge-partiii-Regression_with_the_new_features.ipynb?=force_flush)
+[`https://nbviewer.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora-views-challenge/quora_views_challenge-partiii-Regression_with_the_new_features.ipynb=force_flush`](https://nbviewer.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora-views-challenge/quora_views_challenge-partiii-Regression_with_the_new_features.ipynb=force_flush)
 
 Summary: 
 
