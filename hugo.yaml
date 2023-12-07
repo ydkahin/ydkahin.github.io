@@ -16,6 +16,12 @@ pygmentsUseClasses: true
 minify:
     disableXML: true
 
+googleAnalytics: G-6M8Q4P2L10
+
+services:
+  disqus:
+    shortname: ydkahin
+
 languages:
     en:
         languageName: "English"
@@ -54,6 +60,7 @@ markup:
         # guessSyntax: true
         # lineNos: true
         # style: monokai
+
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
