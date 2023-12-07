@@ -4,6 +4,11 @@ date: 2023-12-06
 author: "Yohannes"
 title: "(How to write) A Letterboxd Scraper"
 weight: 1
+tags: [
+    "python",
+    "scraper",
+    "data scraping"
+]
 ---
 
 In this post, I will make a [Letterboxd](https://letterboxd.com) scrapper. In case you didn't know, Letterboxd is a film logging site with built-in social networking features. It is a great platform, but the company does not provide a public API for their data, so one has to use a scaper to get their hands on the film/user data. 

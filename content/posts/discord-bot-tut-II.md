@@ -1,5 +1,5 @@
 ---
-author: "Y D.A."
+author: "Yohannes"
 date: 2017-08-17
 title: (AWS Hosting) How to make and host a Discord Bot, Part II
 weight: 2
