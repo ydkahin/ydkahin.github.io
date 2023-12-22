@@ -37,7 +37,7 @@ Summary:
 
 ## Regression with the New Features:
 
-[`https://nbviewer.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora-views-challenge/quora_views_challenge-partiii-Regression_with_the_new_features.ipynb=force_flush`](https://nbviewer.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora-views-challenge/quora_views_challenge-partiii-Regression_with_the_new_features.ipynb=force_flush)
+[`https://nbviewer.org/github/ydkahin/jupyter-notebooks/blob/master/notebooks/quora-views-challenge/quora_views_challenge-partiii-Regression_with_the_new_features.ipynb=force_flush`](https://nbviewer.org/github/ydkahin/jupyter-notebooks/tree/master/notebooks/quora-views-challenge/)
 
 Summary: 
 
