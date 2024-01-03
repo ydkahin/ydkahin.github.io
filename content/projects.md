@@ -7,7 +7,7 @@ summary: "Projects"
 # A Letterboxd Scraper (and Recommendation Model)
 The popular social movie platform Letterboxd does not have a public API, so I decided to write a Python scraper for it using BeautifulSoup. The write-up and code can be found [here](https://ydkahin.github.io/posts/letterboxd-scraper-i/). This scraper is optimized to use Python's concurrent processing to speed up the webscraping. 
 
-Using the scraper and the data it collects in real-time, I made a Panel (a Python library) dashboard for visualizing Letterboxd data. A user would input their username and the web-app would return the dashboard with charts and diagrams consisting of user’s most watched directors, genres, movies, etc. (The app is not hosted at the moment).
+Using the scraper and the data it collects in real-time, I made a Panel (a Python library) dashboard for visualizing Letterboxd data. A user would input their username and the web-app would return the dashboard with charts and diagrams consisting of user’s most watched directors, genres, movies, etc. (The app is not hosted at the moment, but you can find the scripts for scraping and generating a dashboard [here](https://github.com/ydkahin/misc-scripts)).
 
 This is part of my ongoing personal project to make a recommendation model based on aggregated social data (from movies followers/following have logged) collected using the scraper. 
 
