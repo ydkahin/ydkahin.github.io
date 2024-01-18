@@ -7,7 +7,7 @@ weight: 1
 tags: [
     "python",
     "scraper",
-    "data scraping"
+    "data-scraping"
 ]
 ---
 
@@ -26,7 +26,7 @@ of each film.
 
 We will also utilize Python's **concurrent processing** to significantly reduce the time it takes to scrap our data by optimizing how we send our requests. Without it, scraping is frustratingly slow even when scraping users with fewer than 200 entries in their logs. For the HTML parsing and scraping, we will use the Python package [BeautifulSoup](https://pypi.org/project/beautifulsoup4/). 
 
-You can find the Jupyter notebook for this post [here](https://github.com/ydkahin/jupyter-notebooks/blob/d370fa7e8d7a0800eabe6691d41b197f9a9c9e75/letterboxd_scraper_to_blog.ipynb).
+You can find the Jupyter notebook for this post [here](https://github.com/ydkahin/jupyter-notebooks/blob/d370fa7e8d7a0800eabe6691d41b197f9a9c9e75/letterboxd_scraper_to_blog.ipynb) and the standalone script that exports a csv [here](https://github.com/ydkahin/misc-scripts/blob/main/ltbxd_scraper_csv_generate.py)
 
 
 ```python
