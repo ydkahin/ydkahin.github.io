@@ -2,6 +2,7 @@
 author: "Y D.A."
 date: "2017-08-17"
 title: How to make and host a Discord Bot, Part I
+weight: 3
 ---
 
 So, you want to make a discord bot. 

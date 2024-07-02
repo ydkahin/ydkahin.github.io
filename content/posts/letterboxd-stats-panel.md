@@ -3,7 +3,7 @@ layout: post
 date: 2024-01-02
 author: "Yohannes"
 title: "Panel for Letterboxd"
-weight: 1
+weight: 3
 tags: [
     "python",
     "scraper",

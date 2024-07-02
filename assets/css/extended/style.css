@@ -62,3 +62,20 @@
 .hljs-number {
   color: darkred !important;
 }
+
+.post-content pre code {
+  color:black !important;
+  background: white !important;
+}
+
+pre {
+  background-color: white !important;
+}
+
+.nav {
+  display: block !important;
+}
+
+.post-content dl, .post-content ol, .post-content p, .post-content figure, .post-content ul {
+  margin-bottom: 10px; 
+}

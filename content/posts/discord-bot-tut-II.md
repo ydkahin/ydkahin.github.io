@@ -2,7 +2,7 @@
 author: "Yohannes"
 date: 2017-08-17
 title: (AWS Hosting) How to make and host a Discord Bot, Part II
-weight: 2
+weight: 3
 ---
 
 This is a follow up post to _Part I_ of [How to make and host a Discord Bot](../how-to-make-and-host-a-discord-bot-part-i/) where I go through the steps to make a simple bot using the discord.py library. In this post, I will conclude the tutorial by explaining how we can host the bot we made in part I. 
